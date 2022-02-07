@@ -1,4 +1,4 @@
-## ETL (Extract, Transform, Load) 🗒️
+# ETL (Extract, Transform, Load) 🗒️
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -9,10 +9,8 @@
     <li><a href="#load">Load</a></li>
     <li><a href="#benefits-and-challenges-of-etl">Benefits and challenges of ETL</a></li>
     <li><a href="#other-integration-methods">Other integration methods</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#etl-pipeline">ETL Pipeline</a></li>
+    <li><a href="#references">References</a></li>
   </ol>
 </details>
 
@@ -28,7 +26,7 @@ In short, the ETL process allows leaving the data in the desired format.
 
 Now, we will talk about what happens in each step of the ETL process.
 
-### Extract
+## Extract
 
 During extraction, raw data is copied or exported from source locations to a staging area. This data can be extracted from a variety of data sources, which can be structured or unstructured. Those sources include but are not limited to:
 
@@ -46,7 +44,7 @@ There exist three data extraction methods:
 
 Independent of the methods used, extraction should not affect the performance and response time of the source systems. These source systems are live production databases (So not legacy systems all the time).
 
-### Transform
+## Transform
 
 In the staging area, the raw data undergoes data processing. Here, the data is transformed and consolidated for its intended analytical use case. This phase can involve the following tasks.
 
@@ -56,7 +54,7 @@ In the staging area, the raw data undergoes data processing. Here, the data is t
 - Removing, encrypting, or protecting sensible data.
 - Formatting the data into data tables or joined tables to match the schema of the target data warehouse
 
-### Load
+## Load
 
 In this step, the transformed data is moved from the staging area into a target data warehouse. Typically this involves an initial loading of all data, followed by periodic loading of incremental data changes. Usually, this process is fully automated, well-defined, continuous, and batch-driven. Typically, ETL takes place during off-hours when traffic on the source systems and the data warehouse is at its lowest.
 
@@ -89,3 +87,13 @@ Awareness of data duplication from the source to the destination increments the 
 <div align="center">
     <img src="images/etl_pipeline.png" alt="etl_pipeline">
 </div>
+
+## References
+
+- https://www.ibm.com/cloud/learn/etl#toc-what-is-et-xeCDpL69
+- https://www.youtube.com/watch?v=7MOU1l30lXs&t=1800s
+- https://www.guru99.com/data-warehousing.html
+- https://www.guru99.com/etl-extract-load-process.html#3
+- https://aws.amazon.com/data-warehouse/
+- https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/
+- https://www.sspaeti.com/blog/data-warehouse-vs-data-lake-etl-vs-elt/
