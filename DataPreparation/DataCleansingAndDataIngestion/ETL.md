@@ -87,5 +87,5 @@ Awareness of data duplication from the source to the destination increments the 
 
 <br />
 <div align="center">
-    <img src="images/etl_pipeline.png" alt="etl_pipeline" width="80" height="80">
+    <img src="images/etl_pipeline.png" alt="etl_pipeline">
 </div>
