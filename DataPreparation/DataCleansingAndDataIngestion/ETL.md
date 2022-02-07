@@ -3,10 +3,11 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#ETL">ETL</a>
+      <a href="#etl">ETL (Extract, Transform, Load)</a>
       <ul>
-        <li><a href="##Extract">Extract</a></li>
+        <li><a href="#extract">Extract</a></li>
       </ul>
+    </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
