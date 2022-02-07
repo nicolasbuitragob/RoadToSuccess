@@ -1,16 +1,12 @@
+## ETL
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#etl">ETL</a>
-      <ul>
-        <li><a href="#extract">Extract</a></li>
-        <li><a href="#transform">Transform</a></li>
-        <li><a href="#load">Load</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#extract">Extract</a></li>
+    <li><a href="#transform">Transform</a></li>
+    <li><a href="#benefits-and-challenges-of-etl">Benefits and challenges of ETL</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -18,12 +14,6 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
-
-
-
-
-## ETL
 
 ETL is a process that extracts, transforms, and loads data from multiple sources to a data warehouse or other unified data repository. 
 
@@ -78,5 +68,17 @@ Types of loading:
 - Full refresh: Erasing the contents of one or more tables and reloading with fresh data.
 
 
+## Benefits and challenges of ETL
 
+ETL solutions improve quality by performing data cleansing before loading the data to a different repository. ETL is a time-consuming batch operation so is recommended for creating smaller target data repositories that require less frequent updating, while other data integration methods are used to integrate increasingly larger volumes of data that change or real-time data streams.
+
+Awareness of data duplication from the source to the destination increments the complexity of the process.
+
+
+## Other integration methods.
+
+- Change Data Capture (CDC)
+- Data replication
+- Data virtualization
+- Stream Data Integration (SDI)
 
