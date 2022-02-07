@@ -1,4 +1,4 @@
-## ETL
+## ETL (Extract, Transform, Load) 🗒️
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -6,8 +6,9 @@
   <ol>
     <li><a href="#extract">Extract</a></li>
     <li><a href="#transform">Transform</a></li>
+    <li><a href="#load">Load</a></li>
     <li><a href="#benefits-and-challenges-of-etl">Benefits and challenges of ETL</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#other-integration-methods">Other integration methods</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -75,10 +76,16 @@ ETL solutions improve quality by performing data cleansing before loading the da
 Awareness of data duplication from the source to the destination increments the complexity of the process.
 
 
-## Other integration methods.
+## Other integration methods
 
 - Change Data Capture (CDC)
 - Data replication
 - Data virtualization
 - Stream Data Integration (SDI)
 
+## ETL Pipeline
+
+<br />
+<div align="center">
+    <img src="images/etl_pipeline.png" alt="etl_pipeline" width="80" height="80">
+</div>
