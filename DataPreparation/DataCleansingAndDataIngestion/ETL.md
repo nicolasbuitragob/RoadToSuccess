@@ -20,7 +20,7 @@
 
 
 
-#ETL (Extract, Transform, Load)
+## ETL (Extract, Transform, Load)
 
 ETL is a process that extracts, transforms, and loads data from multiple sources to a data warehouse or other unified data repository. 
 
@@ -34,5 +34,5 @@ In short, the ETL process allows leaving the data in the desired format.
 
 Now, we will talk about what happens in each step of the ETL process.
 
-##Extract
+### Extract
 
