@@ -18,6 +18,8 @@ decorator==5.1.1
 defusedxml==0.7.1
 entrypoints==0.4
 executing==0.8.2
+fastapi==0.74.1 
+flask==2.0.3
 fonttools==4.29.1
 idna==3.3
 importlib-resources==5.4.0
@@ -61,6 +63,7 @@ platformdirs==2.5.0
 prometheus-client==0.13.1
 prompt-toolkit==3.0.28
 ptyprocess==0.7.0
+psycopg==2.7.7
 pure-eval==0.2.2
 pycparser==2.21
 Pygments==2.11.2
@@ -75,6 +78,7 @@ scipy==1.8.0
 seaborn==0.11.2
 Send2Trash==1.8.0
 six==1.16.0
+SQLAlchemy==1.4.31
 sklearn==0.0
 sniffio==1.2.0
 soupsieve==2.3.1
